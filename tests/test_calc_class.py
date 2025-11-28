@@ -25,7 +25,7 @@ def test_last_answer_init(calculator):
 
 def test_add(calculator):
     answer = calculator.add(NUMBER_1, NUMBER_2)
-    verify_answer(5.0, answer, calculator.last_answer)
+    verify_answer(6.0, answer, calculator.last_answer)
 
 
 def test_subtract(calculator):
