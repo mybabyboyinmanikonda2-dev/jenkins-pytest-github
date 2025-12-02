@@ -14,7 +14,7 @@ def calculator():
 
 # Helpers
 def verify_answer(expected, answer, last_answer):
-    assert expected == answer, "my random string"
+    assert expected == answer, "my random stringg"
     assert expected == last_answer
 
 
